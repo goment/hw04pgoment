@@ -13,6 +13,7 @@ Suggests:
     spelling
 Language: en-US
 Imports: 
+    dplyr,
     ggplot2,
     magrittr,
     tibble
