@@ -4,12 +4,12 @@
 \name{hw04pgoment-package}
 \alias{hw04pgoment}
 \alias{hw04pgoment-package}
-\title{hw04pgoment: The package summary the data frame (One Line, Title Case)}
+\title{hw04pgoment: Summary the variables of a data frame}
 \description{
-What the package does (one paragraph).
+The package can summay variables of your choosen data frame, it also can provides plots of variables.
 }
 \author{
-\strong{Maintainer}: Miantong Guo \email{mg4271a@american.edu} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Miantong Guo \email{guomiantong@gmail.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}

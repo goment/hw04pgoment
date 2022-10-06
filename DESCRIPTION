@@ -1,10 +1,10 @@
 Package: hw04pgoment
-Title: The package summary the data frame (One Line, Title Case)
+Title: Summary the variables of a data frame
 Version: 0.0.0.9000
 Authors@R: 
-    person("Miantong", "Guo", , "mg4271a@american.edu", role = c("aut", "cre"),
+    person("Miantong", "Guo", , "guomiantong@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: The package can summay variables of your choosen data frame, it also can provides plots of variables.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -12,8 +12,8 @@ RoxygenNote: 7.2.1
 Suggests: 
     spelling
 Language: en-US
-Imports: 
-    dplyr,
-    ggplot2,
+Imports:
     magrittr,
     tibble
+Depends: 
+    tidyverse
