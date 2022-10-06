@@ -11,7 +11,7 @@
 #'
 
 data_tibble <- function(data){
-  if (ncol(data) > 5 & nrow(data) > 9 & length(unique(sapply(data,class)))){
+  if (nrow(data) > 0){
     var_name <- ls(data)
     class1 <- sapply(data,class)
     var_unique <- lengths(sapply(data, unique))
@@ -25,5 +25,6 @@ data_tibble <- function(data){
 
 
 #test it
+#data_tibble(mtcars)
 data_tibble(dplyr::starwars)
-#data_tibble(dplyr::band_members)
+data_tibble(dplyr::band_members)
