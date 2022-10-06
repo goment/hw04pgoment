@@ -21,3 +21,5 @@ Depends:
     tidyr,
     tidyverse,
     ggplot2
+URL: https://github.com/goment/hw04pgoment
+BugReports: https://github.com/goment/hw04pgoment/issues
