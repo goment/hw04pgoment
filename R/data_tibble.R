@@ -1,4 +1,4 @@
-#' The summary of variables
+#' The summary of variables by chart
 #' @description This function performs a chart analysis of variables
 #' @param data a data frame
 #' @import tidyverse

@@ -2,7 +2,7 @@
 % Please edit documentation in R/data_tibble.R
 \name{data_tibble}
 \alias{data_tibble}
-\title{The summary of variables}
+\title{The summary of variables by chart}
 \usage{
 data_tibble(data)
 }
