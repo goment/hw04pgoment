@@ -1,5 +1,5 @@
 #' The summary of variables
-#'
+#' @description This function performs a chart analysis of variables
 #' @param data a data frame
 #' @import tidyverse
 #' @return a table with data variables and name/class/number of unique values/number of NA of variables
@@ -8,6 +8,7 @@
 #' @examples
 #' data_tibble(starwars)
 #' data_tibble(billboard)
+#'
 
 data_tibble <- function(data){
   if (ncol(data) > 5 & nrow(data) > 9 & length(unique(sapply(data,class)))){

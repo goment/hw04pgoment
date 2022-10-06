@@ -7,15 +7,16 @@
 data_tibble(data)
 }
 \arguments{
-\item{a}{data frame}
+\item{data}{a data frame}
 }
 \value{
 a table with data variables and name/class/number of unique values/number of NA of variables
 }
 \description{
-The summary of variables
+This function performs a chart analysis of variables
 }
 \examples{
 data_tibble(starwars)
 data_tibble(billboard)
+
 }
